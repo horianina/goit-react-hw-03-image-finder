@@ -3,6 +3,11 @@ import ImageGalleryItem from "../ImageGalleryItem/ImageGalleryItem";
 import { ImageGalleryContainer } from "./ImageGalleryStyled";
 
 class ImageGallery extends Component {
+  state = {
+    articles: [],
+    id: "",
+    webformatURL: "",
+  };
   render() {
     return (
       <>

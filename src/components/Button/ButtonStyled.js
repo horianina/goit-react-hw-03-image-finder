@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ButtonContainer = styled.section`
+export const ButtonContainer = styled.div`
   .Button {
     padding: 8px 16px;
     border-radius: 2px;
