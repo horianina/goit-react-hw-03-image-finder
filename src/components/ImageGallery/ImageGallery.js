@@ -5,8 +5,8 @@ import { ImageGalleryContainer } from "./ImageGalleryStyled";
 class ImageGallery extends Component {
   state = {
     articles: [],
-    id: "",
-    webformatURL: "",
+    // id: "",
+    // webformatURL: "",
   };
   render() {
     return (

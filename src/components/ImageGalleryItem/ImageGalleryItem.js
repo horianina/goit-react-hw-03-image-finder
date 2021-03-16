@@ -29,8 +29,6 @@ class ImageGalleryItem extends Component {
     const { articles } = this.state;
     return (
       <>
-        {/* <Searchbar onSubmit={this.onChangeQuery} /> */}
-
         {articles.map(({ id, webformatURL }) => (
           <li className="ImageGalleryItem" key={id}>
             <img
@@ -40,7 +38,6 @@ class ImageGalleryItem extends Component {
             />
           </li>
         ))}
-        {/* <Button onClick={this.fetchArticles} /> */}
       </>
     );
   }

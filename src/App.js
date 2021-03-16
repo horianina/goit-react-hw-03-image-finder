@@ -35,10 +35,7 @@ class App extends Component {
     return (
       <>
         <Searchbar onSubmit={this.onChangeQuery} />
-        <ImageGallery
-          id={this.state.id}
-          webformatURL={this.state.webformatURL}
-        />
+        <ImageGallery />
 
         <Button onClick={this.fetchArticles} />
       </>
